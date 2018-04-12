@@ -1,8 +1,7 @@
 package com.bigcake;
 
+import com.bigcakemvp.interactor.SingleInteractor;
 import org.jetbrains.annotations.NotNull;
-
-import com.bigcake.base.interactor.SingleInteractor;
 import io.reactivex.Single;
 
 /**

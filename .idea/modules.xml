@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BigCake.iml" filepath="$PROJECT_DIR$/BigCake.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigcakemvp/bigcakemvp.iml" filepath="$PROJECT_DIR$/bigcakemvp/bigcakemvp.iml" />
     </modules>
   </component>
 </project>

@@ -14,23 +14,14 @@
  * limitations under the License.
  */
 
-package com.bigcake.base;
+package com.bigcakemvp;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import static com.bigcake.base.BigCake.requireNotNull;
-import static com.bigcake.base.BigCake.getProxy;
+import static com.bigcakemvp.BigCake.getProxy;
+import static com.bigcakemvp.BigCake.requireNotNull;
 
-/**
- * Contains view logic for preparing content for display (as received from the {@link Interactor}) and for reacting to user inputs (by
- * requesting new data from the Interactor).
- * <p>
- * Contains additional routing logic for switching screens.
- *
- * @author Dmytro Zaitsev
- * @since 0.10.0
- */
 public abstract class BigCakePresenter<V extends ViewCallbacks, R extends Router> extends Presenter<V> {
   @NonNull private final R routerProxy = BigCake.createRouter(null, getClass());
 

@@ -1,4 +1,4 @@
-package com.bigcake.base.interactor
+package com.bigcakemvp.interactor
 
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers

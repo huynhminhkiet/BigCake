@@ -1,4 +1,4 @@
-package com.bigcake.base.interactor
+package com.bigcakemvp.interactor
 
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableCompletableObserver

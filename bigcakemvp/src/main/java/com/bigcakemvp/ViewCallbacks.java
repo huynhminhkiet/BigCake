@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bigcake.base;
+package com.bigcakemvp;
 
 /**
  * Displays what it is told to by the {@link Presenter} and relays user input back to the Presenter.

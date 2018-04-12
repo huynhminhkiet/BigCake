@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bigcake.base;
+package com.bigcakemvp;
 
 import android.support.annotation.Nullable;
 
